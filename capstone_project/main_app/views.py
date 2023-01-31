@@ -10,3 +10,13 @@ from django.views.generic.detail import DetailView
 
 class Home(TemplateView):
     template_name = 'home.html'
+
+
+class Category(TemplateView):
+
+    template_name = "category.html"
+
+
+class About(TemplateView):
+
+    template_name = "about.html"

@@ -1,0 +1,17 @@
+.product img {
+    width: 100%;
+}
+
+.product a {
+    text-decoration: none;
+}
+
+#carouselExampleSlidesOnly img {
+    width: 12rem;
+    height: 22rem;
+}
+
+.products_display {
+    display: grid;
+    justify-content: flex-start;
+}
