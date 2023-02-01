@@ -5,4 +5,4 @@ from . models import Product
 
 @admin.register(Product)
 class ProductModelAdmin(admin.ModelAdmin):
-    product_info = ['name', 'image', 'price', 'category', 'description']
+    product_info = ['id', 'name', 'image', 'price', 'category', 'description']
